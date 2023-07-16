@@ -1,5 +1,7 @@
 import Head from "next/head";
 import TopBar from "../components/TopBar";
+import Category from "~/components/Category";
+import About from "~/components/About";
 
 export default function Home() {
   return (
@@ -11,6 +13,13 @@ export default function Home() {
       </Head>
       <main className="h-screen bg-canvas">
         <TopBar />
+        <div className="max-w-[1200px] mx-auto">
+          <About />
+          <Category title="Projects">
+            <div className="flex flex-col gap-8 h-screen">
+            </div>
+          </Category>
+        </div>
       </main>
     </>
   );

@@ -6,8 +6,8 @@ const links = [
 
 const TopBar: React.FC = () => {
   return (
-    <div className="flex border-b border-borderDefault h-20 relative bg-canvas justify-center">
-      <div className="w-full max-w-[900px] flex border-b px-4 border-borderDefault justify-between items-center h-20 relative bg-canvas">
+    <div className="flex border-b border-borderDefault h-20 relative bg-canvas justify-center sticky top-0">
+      <div className="w-full max-w-[1200px] flex border-b border-borderDefault justify-between items-center h-20 relative bg-canvas">
         <div className="flex items-center gap-6">
           <div className="flex items-center gap-3">
             {/* Github Icon */}
