@@ -11,8 +11,8 @@ export default {
         fgDefault: '#24292F',
         fgMuted: '#57606a',
 
-        borderDefault: "rgba(27,31,36,.15)",
-        primaryPurple: "#8250df",
+        borderDefault: 'rgba(27,31,36,.15)',
+        primaryPurple: '#8250df',
       },
     },
   },
