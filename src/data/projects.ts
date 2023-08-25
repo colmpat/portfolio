@@ -20,7 +20,7 @@ export const projects: Project[] = [
     domain: "DevOps",
     title: "Golang Github Action Grading Pipeline",
     description: "A Github Action that grades student submissions automatically and applies necessary deductions for late submissions. Provides a detailed report of the grading process in the Github Summary markdown file for the action.",
-    skills: ["TypeScript", "Golang", "Github Actions", "Github API"],
+    skills: ["TypeScript", "Golang", "Github Actions", "Github API", "MySQL"],
   },
   {
     id: "cdfs",
@@ -28,6 +28,13 @@ export const projects: Project[] = [
     title: "Distributed File System & Computation Engine",
     description: "CDFS (Colm's Distributed File System) is a distributed file system and computation engine that allows users to store and process data in a distributed manner. The system is fault-tolerant and supports replication and sharding of data. The system is also scalable and supports the addition of new nodes to the cluster. Modeled after the papers on HDFS and MapReduce, this system performs user-submitted Golang plugins on the fly and stores the output back into the dfs.",
     skills: ["Golang", "Distributed Systems", "Big Data", "MapReduce", "HDFS"],
+  },
+  {
+    id: "spark-noaa",
+    domain: "Big Data",
+    title: "Spatiotemporal Climate Analysis",
+    description: "Extracted valuable insights into spatiotemporal climate patterns through in-depth analysis of terabytes of climate data using Apache Spark and Matplotlib for Data-Visualization. Developed efficient Spark jobs to filter, aggregate, and process extensive climate data, optimizing parallel processing for enhanced performance and minimizing computation time on a cluster of 12 nodes.",
+    skills: ["Apache Spark", "Python", "Big Data", "Data Visualization"],
   },
   {
     id: "go-get-it",

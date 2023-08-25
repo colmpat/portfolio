@@ -1,6 +1,8 @@
+import Image from "next/image";
+
 const About: React.FC = () => {
   return (
-    <div id="home" className="w-full flex border-b pb-12">
+    <div id="home" className="w-full flex space-between border-b pb-12">
       {/* Text Intro */}
       <div className="mt-20 flex flex-col w-2/3 gap-2">
         <h3 className="text-2xl font-bold text-fgMuted">Hi, I'm Colm Lang:</h3>
@@ -13,6 +15,9 @@ const About: React.FC = () => {
           solve problems with <span className="italic text-primaryPurple">real human impact</span>. Excited to 
           contribute my skills and experience to projects that push boundaries and drive positive change.
         </p>
+      </div>
+      <div className="w-1/3 mt-10 px-10">
+        <Image src="/images/colm-beach.png" width={2801} height={3735} className="rounded-lg shadow-lg" alt="Colm Lang" />
       </div>
     </div>
   );

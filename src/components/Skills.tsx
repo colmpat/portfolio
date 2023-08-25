@@ -4,19 +4,9 @@ import Category from "./Category";
 const Skills: React.FC = () => {
   return (
     <Category title="Skills">
-      <div className="flex flex-wrap justify-center">
-      {featuredSkills.map((fs) => (
-        <div
-          key={fs.skill}
-          className="flex flex-col items-center justify-center p-2"
-        >
-          <img
-            src={fs.iconUrl}
-            alt={fs.skill}
-            className="w-12 h-12 mb-2"
-          />
-          <span className="font-semibold">{fs.skill}</span>
-        </div>
+      <div className="flex flex-wrap justify-center gap-8 pt-8">
+      {featuredSkills.map((skill, i) => (
+        <span className={`text-3xl font-semibold font-mono text-${i % 2 == 0 ? "primaryPurple" : "fgDefault"}`}>{skill}</span>
       ))}
       </div>
     </Category>

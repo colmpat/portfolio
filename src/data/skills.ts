@@ -12,33 +12,17 @@ export type Skill =  "Golang"
 | "HDFS"
 | "Jetty Servlets"
 | "Web Crawling"
+| "MySQL"
+| "Apache Spark"
+| "Data Visualization"
+| "Python"
 
-export const featuredSkills: { 
-  skill: Skill
-  iconUrl: string
-}[] = [
-  { 
-    skill: "Golang",
-    iconUrl: "todo",
-  },
-  {
-    skill: "Java",
-    iconUrl: "todo",
-  },
-  {
-    skill: "C",
-    iconUrl: "todo",
-  },
-  {
-    skill: "JavaScript",
-    iconUrl: "todo",
-  },
-  {
-    skill: "TypeScript",
-    iconUrl: "todo",
-  },
-  {
-    skill: "Rust",
-    iconUrl: "todo",
-  },
+
+export const featuredSkills: Skill[] = [
+    "Golang",
+    "Java",
+    "C",
+    "JavaScript",
+    "TypeScript",
+    "Rust",
 ];
