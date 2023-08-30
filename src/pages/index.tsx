@@ -3,6 +3,7 @@ import TopBar from "../components/TopBar";
 import About from "~/components/About";
 import Projects from "~/components/Projects";
 import Skills from "~/components/Skills";
+import Education from "~/components/Education";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <TopBar />
         <div className="max-w-[1200px] mx-auto">
           <About />
+          <Education />
           <Skills />
           <Projects />
         </div>

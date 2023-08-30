@@ -1,5 +1,6 @@
 const links = [
   { name: 'Hello! 👋', href: '#home' },
+  { name: 'Education', href: '#education' },
   { name: 'My Skills', href: '#skills' },
   { name: 'Projects', href: '#projects' },
 ]
