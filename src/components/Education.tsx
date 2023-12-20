@@ -1,12 +1,14 @@
 import Category from "./Category";
 
 const courses = [ 
+  "Advanced Network Security (MS)",
   "Data Structures and Algorithms (MS)",
   "Software Development (MS)",
   "Big Data (MS)",
   "Computer Architecture",
   "Operating Systems",
   "C & Systems Programming",
+  "Systems Security",
 ];
   
 
@@ -14,7 +16,7 @@ const Education: React.FC = () => {
   return (
     <Category title="Education">
       <div className="flex p-6 gap-16">
-        <SchoolListing school="University of San Francisco" degree="Computer Science 4+1 (MS/BS)" years="2020 - 2025" />
+        <SchoolListing school="University of San Francisco" degree="Computer Science" years="2020 - 2024" />
         <div className="flex flex-col">
           <h3 className="text-2xl font-semibold">Relevant Courses</h3>
           <hr className="mb-3"/>
